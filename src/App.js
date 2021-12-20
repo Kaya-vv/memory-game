@@ -40,7 +40,7 @@ function App() {
 
     setIsLoading(false);
    
-  }, [clickedCards])
+  }, [clickedCards, currentCards])
 
   const handleClick = (name) => {
     setIsLoading(true);
